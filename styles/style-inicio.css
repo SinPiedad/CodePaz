@@ -38,7 +38,7 @@ nav a {
 
 #active {
   background-color: #1a9def2d;
-  border: #1a9def88 solid 2px;
+  outline: #1a9def88 solid 2px;
 }
 
 .card-nav:hover {
