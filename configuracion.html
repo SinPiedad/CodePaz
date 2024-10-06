@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
   <title>Document</title>
   <link rel="stylesheet" href="styles/style-inicio.css">
+  <link rel="stylesheet" href="/styles/style-configuracion.css">
   <link rel="stylesheet" href="/styles/modo-oscuro.css">
 </head>
 <body>
@@ -16,7 +17,7 @@
     <div class="container-nav">
     </div>
       <a href="inicio.html">
-        <div class="card-nav" id="active">
+        <div class="card-nav">
             <img src="img/hogar.svg" alt="" width="30px">
             <h2>INICIO</h2>
         </div>
@@ -36,7 +37,7 @@
         </div>
       </a>
 
-      <a href="configuracion.html">
+      <a href="configuracion.html" id="active">
         <div class="card-nav">
             <img src="img/ajustes.svg" alt="" width="30px">
             <h2>CONFIGURAR</h2>
@@ -50,6 +51,34 @@
         </div>
       </a>
   </nav>
+<div class="container">
+
+  <div id="setting">
+    <h1>Ajustes</h1>
+    <label>
+      <input type="checkbox" id="darkModeToggle"> Modo noche </input>
+    </label>
+  </div>
+</div>
+<div class="container">
+  <div id="setting">
+    <h1 data-translate="title">Ajustes</h1>
+
+    <label for="languageSelect">Idioma</label>
+    <select id="languageSelect">
+      <option value="es">Español</option>
+      <option value="en">Ingles</option>
+    </select>
+
+    <label>
+      <input type="checkbox" id="darkModeToggle"> <span data-translate="darkModeLabel">Modo Noche</span>
+    </label>
+  </div>
+
+</div>
+
   <script src="/Scripts/configuracion.js"></script>
+
+
 </body>
 </html>

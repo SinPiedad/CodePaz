@@ -1,0 +1,14 @@
+/* Modo oscuro */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Estilos adicionales para el modo oscuro */
+.dark-mode a {
+  color: #ffffff;
+}
+
+.dark-mode nav {
+  background-color: #333;
+}

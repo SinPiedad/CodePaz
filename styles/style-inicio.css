@@ -9,6 +9,11 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+body.dark-mode {
+  background-color: rgb(54, 54, 54);
+  color: white;
+}
+
 
 nav {
   z-index: 1;
